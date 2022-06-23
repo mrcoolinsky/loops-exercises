@@ -8,7 +8,8 @@ namespace loops_exercises
         {
             //Ex1();
             //Ex2();
-            Ex3();
+            //Ex3();
+            Ex4();
         }
         public static void Ex1()
         {
@@ -68,8 +69,17 @@ namespace loops_exercises
 
                 Console.WriteLine(c);
             }
-            
+        }
+        public static void Ex4()
+        {
+            Console.WriteLine("Exercise 3");
+            Console.WriteLine("***");
+            Console.WriteLine("Please enter a number:");
+            string number = Console.ReadLine();
+            int numberInt;
+            Int32.TryParse(number, out numberInt);
 
+            
         }
     }
 }
