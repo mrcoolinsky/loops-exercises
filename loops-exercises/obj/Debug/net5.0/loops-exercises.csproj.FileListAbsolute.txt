@@ -1,0 +1,16 @@
+C:\Users\wikto\Documents\Code\C#\Szkoła Dotneta\loops-exercises\loops-exercises\bin\Debug\net5.0\loops-exercises.exe
+C:\Users\wikto\Documents\Code\C#\Szkoła Dotneta\loops-exercises\loops-exercises\bin\Debug\net5.0\loops-exercises.deps.json
+C:\Users\wikto\Documents\Code\C#\Szkoła Dotneta\loops-exercises\loops-exercises\bin\Debug\net5.0\loops-exercises.runtimeconfig.json
+C:\Users\wikto\Documents\Code\C#\Szkoła Dotneta\loops-exercises\loops-exercises\bin\Debug\net5.0\loops-exercises.runtimeconfig.dev.json
+C:\Users\wikto\Documents\Code\C#\Szkoła Dotneta\loops-exercises\loops-exercises\bin\Debug\net5.0\loops-exercises.dll
+C:\Users\wikto\Documents\Code\C#\Szkoła Dotneta\loops-exercises\loops-exercises\bin\Debug\net5.0\loops-exercises.pdb
+C:\Users\wikto\Documents\Code\C#\Szkoła Dotneta\loops-exercises\loops-exercises\obj\Debug\net5.0\loops-exercises.csproj.AssemblyReference.cache
+C:\Users\wikto\Documents\Code\C#\Szkoła Dotneta\loops-exercises\loops-exercises\obj\Debug\net5.0\loops-exercises.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wikto\Documents\Code\C#\Szkoła Dotneta\loops-exercises\loops-exercises\obj\Debug\net5.0\loops-exercises.AssemblyInfoInputs.cache
+C:\Users\wikto\Documents\Code\C#\Szkoła Dotneta\loops-exercises\loops-exercises\obj\Debug\net5.0\loops-exercises.AssemblyInfo.cs
+C:\Users\wikto\Documents\Code\C#\Szkoła Dotneta\loops-exercises\loops-exercises\obj\Debug\net5.0\loops-exercises.csproj.CoreCompileInputs.cache
+C:\Users\wikto\Documents\Code\C#\Szkoła Dotneta\loops-exercises\loops-exercises\obj\Debug\net5.0\loops-exercises.dll
+C:\Users\wikto\Documents\Code\C#\Szkoła Dotneta\loops-exercises\loops-exercises\obj\Debug\net5.0\refint\loops-exercises.dll
+C:\Users\wikto\Documents\Code\C#\Szkoła Dotneta\loops-exercises\loops-exercises\obj\Debug\net5.0\loops-exercises.pdb
+C:\Users\wikto\Documents\Code\C#\Szkoła Dotneta\loops-exercises\loops-exercises\obj\Debug\net5.0\loops-exercises.genruntimeconfig.cache
+C:\Users\wikto\Documents\Code\C#\Szkoła Dotneta\loops-exercises\loops-exercises\obj\Debug\net5.0\ref\loops-exercises.dll

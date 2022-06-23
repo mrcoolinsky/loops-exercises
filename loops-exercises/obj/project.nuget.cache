@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "QD9RK7w9RmzTQEvpfcd7B0fpVuh8VGFXlu7in3LUj/yIy7Gd11FgvP3dMnNn8FtGA71y5Mp5U6+QftpKI2pEYw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\wikto\\Documents\\Code\\C#\\Szkoła Dotneta\\loops-exercises\\loops-exercises\\loops-exercises.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\wikto\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512",
+    "C:\\Users\\wikto\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\wikto\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\wikto\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
