@@ -9,7 +9,10 @@ namespace loops_exercises
             //Ex1();
             //Ex2();
             //Ex3();
-            Ex4();
+            //Ex4();
+            //Ex5();
+            //Ex6();
+            Ex7();
         }
         public static void Ex1()
         {
@@ -72,14 +75,73 @@ namespace loops_exercises
         }
         public static void Ex4()
         {
-            Console.WriteLine("Exercise 3");
+            Console.WriteLine("Exercise 4");
+            Console.WriteLine("***");
+            Console.WriteLine("Please enter a number:");
+            string number = Console.ReadLine();
+            int numberInt;
+            int digit = 1;
+            Int32.TryParse(number, out numberInt);
+
+            for (int i=0; i<numberInt; i++)
+            {
+                for (int j=0; j<i; j++)
+                {
+                    Console.Write(digit);
+                    digit++;
+                }
+                Console.WriteLine("");
+            }
+            
+        }
+        public static void Ex5()
+        {
+            Console.WriteLine("Exercise 5");
+            Console.WriteLine("***");
+            double number = 1;
+            for(int i=0; i<20; i++)
+            {
+                Console.WriteLine($"{Math.Pow(number, 3)}");
+                number++;
+            }
+
+        }
+        public static void Ex6()
+        {
+            Console.WriteLine("Exercise 6");
+            Console.WriteLine("***");
+            int number =1;
+            for (int i=1; i<=20; i++)
+            {
+                number += 1 / i;
+                
+            }
+            Console.WriteLine(number);
+        }
+        public static void Ex7()
+        {
+            Console.WriteLine("Exercise 7");
             Console.WriteLine("***");
             Console.WriteLine("Please enter a number:");
             string number = Console.ReadLine();
             int numberInt;
             Int32.TryParse(number, out numberInt);
+            Console.WriteLine("Please enter length of the shorter diagonal:");
+            string diagonal = Console.ReadLine();
+            int diagonalInt;
+            Int32.TryParse(diagonal, out diagonalInt);
 
-            
+            for (int i=0; i<numberInt;i++)
+            {
+                for (int j=0; j<i;j++)
+                {
+                    Console.Write("*");
+                    
+                }
+                Console.WriteLine("");
+            }
+
         }
+
     }
 }
