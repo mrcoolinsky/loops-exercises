@@ -12,7 +12,10 @@ namespace loops_exercises
             //Ex4();
             //Ex5();
             //Ex6();
-            Ex7();
+            //Ex7();
+            //Ex8();
+            //Ex9();
+            Ex10();
         }
         public static void Ex1()
         {
@@ -126,22 +129,104 @@ namespace loops_exercises
             string number = Console.ReadLine();
             int numberInt;
             Int32.TryParse(number, out numberInt);
-            Console.WriteLine("Please enter length of the shorter diagonal:");
-            string diagonal = Console.ReadLine();
-            int diagonalInt;
-            Int32.TryParse(diagonal, out diagonalInt);
-
+           
             for (int i=0; i<numberInt;i++)
             {
-                for (int j=0; j<i;j++)
+                for (int j=0;j<numberInt-i;j++)
+                {
+                    Console.Write(" ");
+                }
+                for(int k=0;k<2*i-1;k++)
                 {
                     Console.Write("*");
-                    
                 }
-                Console.WriteLine("");
+                Console.WriteLine();
             }
+            for (int i = numberInt-1; i >= 1; i--)
+            {
+                for (int j = 0; j < numberInt - i; j++)
+                {
+                    Console.Write(" ");
+                }
+                for (int k = 0; k < 2 * i - 1; k++)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+            }
+        }
+        public static void Ex8()
+        {
+            Console.WriteLine("Exercise 8");
+            Console.WriteLine("***");
+            Console.WriteLine("Please enter a text:");
+            string text = Console.ReadLine();
+            string textReverse = "";
+            int counter = text.Length - 1;
+            while (counter >= 0)
+            {
+                textReverse += text[counter];
+                counter--;                
+            }
+            Console.WriteLine(textReverse);
+        }
+        public static void Ex9()
+        {
+            Console.WriteLine("Exercise 9");
+            Console.WriteLine("***");
+            Console.WriteLine("Please enter a number:");
+            string number = Console.ReadLine();
+            int numberInt;
+            int modulo=0;
+            string text="";
+            string textReverse="";            
+          
+            Int32.TryParse(number, out numberInt);
+
+            while (numberInt > 0)
+            {
+                modulo = numberInt%2;
+                text += modulo.ToString();
+                numberInt /= 2;                
+            }
+            int counter = text.Length - 1;
+            while (counter >= 0)
+            {
+                textReverse += text[counter];
+                counter--;
+            }
+            Console.WriteLine(textReverse);
+        }
+        public static void Ex10()
+        {
+            Console.WriteLine("Please enter first number:");
+            string firstNumber = Console.ReadLine();
+            Console.WriteLine("Please enter second number:");
+            string secondNumber = Console.ReadLine();
+            int firstNumberInt;
+            int secondNumberInt;
+            int numberMultiply=0;
+            
+            Int32.TryParse(firstNumber, out firstNumberInt);
+            Int32.TryParse(secondNumber, out secondNumberInt);
+
+            numberMultiply = firstNumberInt * secondNumberInt;
+            while (firstNumberInt !=  secondNumberInt)
+            {
+                if(firstNumberInt>secondNumberInt)
+                {
+                    firstNumberInt -= secondNumberInt;
+                }
+                else
+                {
+                    secondNumberInt -= firstNumberInt;
+                }
+            }
+            int result = numberMultiply/firstNumberInt;
+            Console.WriteLine(result);
 
         }
+
 
     }
 }
